@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="mycanva" width="500" height="300" style="border:2px solid black"></canvas>
+<script>
+	const can=document.getElementById("mycanva");
+  const ctx=can.getContext("2d");
+  ctx.beginPath();
+  ctx.arc(250,70,50,0,2*Math.PI);
+  ctx.stroke();
+  ctx.fillStyle = "yellow";
+    ctx.fill();
+  const cans=document.getElementById("mycanva");
+  const ctxs=cans.getContext("2d");
+  ctxs.beginPath();
+  ctxs.arc(228,60,5,0,2*Math.PI);
+  ctxs.stroke();
+  ctxs.fillStyle = "white";
+    ctxs.fill();
+
+  const cans1=document.getElementById("mycanva");
+  const ctxs1=cans1.getContext("2d");
+  ctxs1.beginPath();
+  ctxs1.arc(268,60,5,0,2*Math.PI);
+  ctxs1.stroke();
+  ctxs1.fillStyle = "white";
+    ctxs1.fill();
+  
+    /* const ctx3=can.getContext("2d"); */
+  ctx.beginPath();
+  /*ctx.moveTo(50,50);
+  ctx.lineTo(150,50) ;*/
+  ctx.arc(250,85,20,0,Math.PI);
+  ctx.stroke();
+  
+  const can1=document.getElementById("mycanva");
+  const ctx1=can1.getContext("2d");
+  ctx1.lineWidth=3;
+  ctx1.beginPath();
+  ctx1.moveTo(250,120);
+  ctx1.lineTo(250,250);
+  ctx1.stroke();
+
+  const can2=document.getElementById("mycanva");
+  const ctx2=can2.getContext("2d");
+  ctx2.lineWidth=3;
+  ctx2.beginPath();
+  ctx2.moveTo(250,120);
+  ctx2.lineTo(200,180);
+  ctx2.stroke();
+
+  const can3=document.getElementById("mycanva");
+  const ctx3=can3.getContext("2d");
+  ctx3.lineWidth=3;
+  ctx3.beginPath();
+  ctx3.moveTo(250,120);
+  ctx3.lineTo(300,180);
+  ctx3.stroke();
+
+  const can4=document.getElementById("mycanva");
+  const ctx4=can4.getContext("2d");
+  ctx4.lineWidth=3;
+  ctx4.beginPath();
+  ctx4.moveTo(250,250);
+  ctx4.lineTo(310,280);
+  ctx4.stroke();
+
+  const can5=document.getElementById("mycanva");
+  const ctx5=can5.getContext("2d");
+  ctx5.lineWidth=3;
+  ctx5.beginPath();
+  ctx5.moveTo(250,250);
+  ctx5.lineTo(190,280);
+  ctx5.fillStyle = "blue";
+  ctx5.fill();
+  ctx5.stroke();
+
+</script>
+</body>
+</html>
